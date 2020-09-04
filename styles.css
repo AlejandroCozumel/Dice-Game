@@ -1,0 +1,69 @@
+html { 
+  background: url("images/street.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 70%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+button{
+  background-color: #4ECCA3;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  border-radius: 50px;
+  padding: 15px;
+  transition-delay: 1s;
+  cursor: pointer;
+}
+
+.street{
+  text-align: center;
+}
+
+.gif{
+  width: 200px;
+  height: 200px;
+  display: inline;
+  padding: 50px 100px 0px 100px;
+}
+
+.bison{
+  transform: rotateY(180deg);
+}
